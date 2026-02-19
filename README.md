@@ -64,7 +64,7 @@
     -   在 **Build and deployment** 下的 **Source** 選擇 `Deploy from a branch`。
     -   在 **Branch** 選擇 `main`，資料夾選擇 `/docs` (注意：這裡是選擇 `/docs`，因為我們的網頁檔案都在 docs 資料夾內)。
     -   儲存後，GitHub 會提供一個網址，您的電子書就可以瀏覽了！
-![GITHUB SETTING.jpg](GITHUB SETTING.jpg)
+![GITHUB SETTING.jpg](GITHUB%20SETTING.jpg)
 ## 如何更新內容
 
 1.  修改您的 ODT 文件 (`merged_2026_1_17 libreoffice.odt`)。
@@ -73,5 +73,6 @@
     python convert_odt_to_html.py
     ```
 3.  將更新後的 `docs/` 資料夾內容推送到 GitHub。
+
 
 
